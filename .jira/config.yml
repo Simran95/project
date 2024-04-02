@@ -1,4 +1,7 @@
 deployments:
+  services:
+    ids:
+    - b:YXJpOmNsb3VkOmdyYXBoOjpzZXJ2aWNlL2RmMzQ5NjlhLTRiNDEtMTFlYi1iYzNjLTBhYmUzZjRhNjYwMS84ZDIyMzU4Ni1jYTg0LTExZWUtYTE4ZC0wYWJlM2Y0YTY2MDE=
   deploymentGating:
     enabled: true # to enable the feature
     retry: 50 # run poll action 50 times
@@ -8,7 +11,4 @@ deployments:
     - production
     - Staging
     - Testing
-  services:
-    ids:
-    - b:YXJpOmNsb3VkOmdyYXBoOjpzZXJ2aWNlL2RmMzQ5NjlhLTRiNDEtMTFlYi1iYzNjLTBhYmUzZjRhNjYwMS84ZDIyMzU4Ni1jYTg0LTExZWUtYTE4ZC0wYWJlM2Y0YTY2MDE=
 
